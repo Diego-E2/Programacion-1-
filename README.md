@@ -23,9 +23,7 @@ En este programa subiremos las practicas realizadas en clase del curso de progra
 	return 0;
         }
 
-			      
-			    		      
-				      
+.
 			   		      
           //Ejemplo de tarea #1, Uso de "do while"
           /Algoritmo de los numeros del 1 al 20
@@ -48,7 +46,7 @@ En este programa subiremos las practicas realizadas en clase del curso de progra
 	   return 0;
            }
 
-
+.
 
            //Ejemplo de tarea #1, Uso de "while"
            //Algoritmo que muestra los numeros del 1 al 10 
@@ -74,3 +72,33 @@ En este programa subiremos las practicas realizadas en clase del curso de progra
 	
 	     return 0;
             }
+
+.
+
+
+          ////Ejemplo de tarea #1, Uso de "Vector"
+          /* Escribir un progrma en donde se defina un vector y que calcule la suma de sus elementos 
+          */
+
+         //Empezamos seleccionando las librerias 
+         #include <iostream>
+         #include <conio.h>
+
+         //Habilitamos el salto de linea 
+         using namespace std; 
+
+         int main(){
+	 int numeros[] = {1,2,3,4,5};
+	 int suma = 0;
+	
+	 for(int i=0;i<5;i++){
+		suma += numeros[i];
+	 }
+	
+	 cout<<"La suma de los numeros del vector es:"<<suma<<endl;
+	
+	
+	 return 0;
+         }
+.
+
